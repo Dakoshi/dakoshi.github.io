@@ -1,0 +1,72 @@
+/* aside begin */
+
+aside {
+    width: 33%;
+    background-color: #2f3a40;
+    color: #f1f1f1;
+    position: absolute; 
+    left: 0;
+}
+
+.ava {
+text-align: justify;
+}
+
+img {
+    max-width: 200px;
+}
+
+.contact > h2 {
+    background-color: #fe7676;
+}
+
+.education > h2 {
+    background-color: #adc646;
+}
+
+.languages > h2 {
+    background-color: #7fa4b7;
+}
+
+h2 {
+    text-transform: uppercase;
+    padding: 5px;
+    padding-left: 40px;
+}
+
+.pink_bg {
+    /* position: relative; */
+    background-color: #fe7676;
+    height: 40px;
+}
+
+/* .pink_bg::after {
+    content: '';
+    position: absolute;
+
+    left: 20px; bottom: -20px;
+    border: 10px solid transparent; 
+    border-top: 10px solid green; 
+} */
+
+
+
+.graduation_year::before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    color: purple;
+}
+
+/* aside end */
+
+
+/* main begin */
+main {
+    position: absolute;
+    right: 0;
+    width: 65.9%
+}
+
+/* main end */
