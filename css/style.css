@@ -126,6 +126,7 @@ h2 {
 .col-2-3 > p {
     margin-top: 8px;
     margin-bottom: 0;
+    padding-left: 5%;
 }
 
 .col-2-3 {
